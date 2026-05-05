@@ -1,13 +1,5 @@
-# <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&size=32&duration=2500&color=00E5FF&center=true&vCenter=true&width=900&lines=Hi+I'm+Abhiraj+Kumar;Full+Stack+Developer;AI%2FML+Engineer;Building+Impactful+Tech+🚀" />
-
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00E5FF,100:0f2027&height=120&section=header"/>
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/AI%2FML-00E5FF?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/FullStack-39FF8F?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/SystemDesign-C084FC?style=for-the-badge"/>
+  <img src="https://raw.githubusercontent.com/abhiraj01-bit/abhiraj01-bit/main/banner.svg" />
 </p>
 
 ---
