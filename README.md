@@ -10,7 +10,9 @@
 
 ```bash
 abhiraj@github:~$ whoami
+```
 
+```txt
 > Abhiraj Kumar
 > Software Developer
 > AI/ML Engineer
@@ -32,11 +34,12 @@ abhiraj@github:~$ whoami
 
 ```diff
 + Building AI-powered real-world solutions
-+ Strong in DSA & problem solving
-+ Android + Flutter developer
-+ Focused on scalable systems
-+ Consistency > motivation
++ Strong in Data Structures & Problem Solving
++ Android & Flutter Developer
++ Focused on scalable, production-ready systems
++ Consistency > Motivation
 ```
+
 
 ---
 
