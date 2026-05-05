@@ -13,7 +13,7 @@
 ---
 
 ## 💻 Terminal Identity  
-h
+
 abhiraj@github:~$ whoami
 
 > Abhiraj Kumar
