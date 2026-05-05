@@ -14,7 +14,7 @@
 
 ## 💻 Terminal Identity  
 
-```bash
+
 abhiraj@github:~$ whoami
 
 > Abhiraj Kumar
