@@ -12,13 +12,14 @@
 
 ---
 
-
+## 💻 Terminal Identity  
+h
+abhiraj@github:~$ whoami
 
 > Abhiraj Kumar
 > Software Developer
 > AI/ML Engineer
 > Builder of Scalable Systems
-abhiraj@github:~$ cat config.json
 
 {
   "focus": ["AI/ML", "Full Stack", "System Design"],
