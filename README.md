@@ -1,56 +1,108 @@
+<!-- HERO -->
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/abhiraj01-bit/abhiraj01-bit/main/banner.svg" />
 </p>
 
 ---
 
-## 💻 Terminal Identity  
+## 💻 TERMINAL
 
+```bash
 abhiraj@github:~$ whoami
 
 > Abhiraj Kumar
 > Software Developer
 > AI/ML Engineer
-> Builder of Scalable Systems
+> Scalable System Builder
+```
 
+```json
 {
   "focus": ["AI/ML", "Full Stack", "System Design"],
   "learning": ["Next.js", "TypeScript", "Cloud"],
   "interests": ["Startups", "Open Source", "Innovation"],
   "location": "India 🇮🇳"
 }
-🧠 About Me
-+ Building AI-powered real-world solutions
-+ Strong in Data Structures & Algorithms
-+ Developing Android & Flutter applications
-+ Focused on scalable & production-ready systems
-+ Always learning, always building
-🛠️ Tech Stack
-⚡ Languages
-<p> <img src="https://skillicons.dev/icons?i=cpp,java,python,dart,js" /> </p>
-🌐 Development
-<p> <img src="https://skillicons.dev/icons?i=react,nodejs,flutter,android,html,css" /> </p>
-🧠 AI / ML
-<p> <img src="https://skillicons.dev/icons?i=python,tensorflow" /> <img src="https://img.shields.io/badge/YOLO-FF0000?style=for-the-badge"/> <img src="https://img.shields.io/badge/OpenAI-000000?style=for-the-badge&logo=openai"/> </p>
-🗄️ Backend & DB
-<p> <img src="https://skillicons.dev/icons?i=firebase,supabase,mongodb" /> </p>
-⚙️ Tools
-<p> <img src="https://skillicons.dev/icons?i=git,vscode,postman,docker" /> </p>
-📊 GitHub Analytics
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=abhiraj01-bit&show_icons=true&theme=tokyonight&hide_border=true"/> </p> <p align="center"> <img src="https://streak-stats.demolab.com?user=abhiraj01-bit&theme=tokyonight&hide_border=true"/> </p>
-🐍 Contribution Snake
-<p align="center"> <img src="https://github.com/abhiraj01-bit/abhiraj01-bit/blob/output/github-contribution-grid-snake.svg" /> </p>
-🧩 Developer Mindset
-code_style: clean & scalable
-architecture: modular & efficient
-focus: real-world impact
-approach: learn → build → optimize → scale
-🤝 Connect
-<p align="center"> <a href="https://www.linkedin.com/in/abhiraj-kumar-915175329"> <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/> </a> <a href="mailto:abhirajkumar0709@gmail.com"> <img src="https://img.shields.io/badge/Email-FB923C?style=for-the-badge&logo=gmail"/> </a> <a href="https://github.com/abhiraj01-bit/"> <img src="https://img.shields.io/badge/GitHub-E8F4FF?style=for-the-badge&logo=github&logoColor=black"/> </a> <a href="https://x.com/Abhiraj_Kumar01?t=3cnzVQcxiwcKtZIzrN01xQ&s=09"> <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=twitter"/> </a> </p>
-⚡ Philosophy
-> "Build things that create impact, not just code."
-🔚 System Exit
-abhiraj@github:~$ exit
+```
 
-> Thanks for visiting 🚀
-<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,100:00E5FF&height=100&section=footer"/> </p> ```
+---
+
+## 🧠 ABOUT
+
+```diff
++ Building AI-powered real-world solutions
++ Strong in DSA & problem solving
++ Android + Flutter developer
++ Focused on scalable systems
++ Consistency > motivation
+```
+
+---
+
+## ⚡ TECH STACK
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=cpp,java,python,dart,js,react,nodejs,flutter,android,firebase,supabase,mongodb,git,vscode,docker,postman" />
+</p>
+
+---
+
+## 📊 ANALYTICS
+
+<p align="center">
+  <img height="165" src="https://github-readme-stats-sigma-five.vercel.app/api?username=abhiraj01-bit&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img height="165" src="https://streak-stats.demolab.com?user=abhiraj01-bit&theme=tokyonight&hide_border=true"/>
+</p>
+
+---
+
+## 🐍 CONTRIBUTION
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/abhiraj01-bit/abhiraj01-bit/output/github-contribution-grid-snake.svg"/>
+</p>
+
+---
+
+## 🧩 MINDSET
+
+```yaml
+code: clean
+design: scalable
+goal: real-world impact
+approach: learn → build → ship → improve
+```
+
+---
+
+## 🌐 CONNECT
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/abhiraj-kumar-915175329">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin"/>
+  </a>
+  <a href="mailto:abhirajkumar0709@gmail.com">
+    <img src="https://img.shields.io/badge/Email-FB923C?style=for-the-badge&logo=gmail"/>
+  </a>
+  <a href="https://github.com/abhiraj01-bit/">
+    <img src="https://img.shields.io/badge/GitHub-E8F4FF?style=for-the-badge&logo=github&logoColor=black"/>
+  </a>
+  <a href="https://x.com/Abhiraj_Kumar01">
+    <img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=twitter"/>
+  </a>
+</p>
+
+---
+
+## ⚡ PHILOSOPHY
+
+```bash
+> "Build things that create impact."
+```
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:8A2BE2,100:00E5FF&height=110&section=footer"/>
+</p>
