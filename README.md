@@ -12,10 +12,7 @@
 
 ---
 
-## 💻 Terminal Identity  
 
-
-abhiraj@github:~$ whoami
 
 > Abhiraj Kumar
 > Software Developer
