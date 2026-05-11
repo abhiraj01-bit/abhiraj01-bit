@@ -67,14 +67,6 @@ abhiraj@github:~$ whoami
 
 ---
 
-### 🧩 &nbsp;LeetCode Stats
-
-<p align="center">
-  <img src="https://leetcard.jacoblin.cool/abhiraj01-bit?theme=dark&font=Fira%20Code&ext=heatmap&border=0&radius=8" />
-</p>
-
----
-
 ### 📈 &nbsp;Activity Graph
 
 <p align="center">
