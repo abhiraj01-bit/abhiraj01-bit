@@ -1,0 +1,66 @@
+name: Update Pinned Repos
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 5 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-repos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Fetch top repos and update README
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python3 - <<'PYEOF'
+          import urllib.request, json, re
+
+          headers = {
+              "Authorization": "token ${{ secrets.GITHUB_TOKEN }}",
+              "Accept": "application/vnd.github.v3+json"
+          }
+
+          url = "https://api.github.com/users/abhiraj01-bit/repos?sort=updated&per_page=6&type=public"
+          req = urllib.request.Request(url, headers={"Authorization": "Bearer $GH_TOKEN", "Accept": "application/vnd.github.v3+json"})
+
+          try:
+              with urllib.request.urlopen(req) as r:
+                  repos = json.loads(r.read())
+          except:
+              exit(0)
+
+          rows = ""
+          for repo in repos[:6]:
+              name  = repo.get("name", "")
+              desc  = repo.get("description") or "No description"
+              stars = repo.get("stargazers_count", 0)
+              lang  = repo.get("language") or "—"
+              url   = repo.get("html_url", "")
+              rows += f"| [{name}]({url}) | {desc[:55]} | {lang} | ⭐ {stars} |\n"
+
+          table = f"""<!-- REPOS_START -->
+          | Repository | Description | Language | Stars |
+          |---|---|---|---|
+          {rows.strip()}
+          <!-- REPOS_END -->"""
+
+          with open("README.md", "r") as f:
+              content = f.read()
+
+          content = re.sub(r"<!-- REPOS_START -->.*?<!-- REPOS_END -->", table, content, flags=re.DOTALL)
+
+          with open("README.md", "w") as f:
+              f.write(content)
+          PYEOF
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || (git add README.md && git commit -m "chore: update pinned repos [skip ci]" && git push)

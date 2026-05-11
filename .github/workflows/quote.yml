@@ -1,0 +1,44 @@
+name: Daily Quote
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 6 * * *"
+
+permissions:
+  contents: write
+
+jobs:
+  update-quote:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Fetch quote and update README
+        run: |
+          QUOTE=$(curl -s "https://zenquotes.io/api/random" | python3 -c "
+          import sys, json
+          data = json.load(sys.stdin)
+          q = data[0]['q']
+          a = data[0]['a']
+          print(f'> \\"{q}\\"')
+          print(f'> — {a}')
+          ")
+
+          # Replace content between markers
+          python3 - <<'PYEOF'
+          import re
+          with open('README.md', 'r') as f:
+              content = f.read()
+          quote = """$QUOTE"""
+          new_block = f"<!-- QUOTE_START -->\n{quote}\n<!-- QUOTE_END -->"
+          content = re.sub(r'<!-- QUOTE_START -->.*?<!-- QUOTE_END -->', new_block, content, flags=re.DOTALL)
+          with open('README.md', 'w') as f:
+              f.write(content)
+          PYEOF
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git diff --quiet || (git add README.md && git commit -m "chore: update daily quote [skip ci]" && git push)

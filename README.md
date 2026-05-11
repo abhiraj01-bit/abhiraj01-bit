@@ -67,6 +67,14 @@ abhiraj@github:~$ whoami
 
 ---
 
+### 🧩 &nbsp;LeetCode Stats
+
+<p align="center">
+  <img src="https://leetcard.jacoblin.cool/abhiraj01-bit?theme=dark&font=Fira%20Code&ext=heatmap&border=0&radius=8" />
+</p>
+
+---
+
 ### 📈 &nbsp;Activity Graph
 
 <p align="center">
@@ -89,11 +97,30 @@ abhiraj@github:~$ whoami
 
 ---
 
+### 🚀 &nbsp;Latest Projects
+
+<!-- REPOS_START -->
+| Repository | Description | Language | Stars |
+|---|---|---|---|
+| — | Run workflow to auto-populate | — | — |
+<!-- REPOS_END -->
+
+---
+
 ### 🎯 &nbsp;Current Focus
 
 <p align="center">
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2800&pause=1000&color=FF5540&background=00000000&center=true&vCenter=true&width=520&height=40&lines=🔭+Building+AI+%2B+Full-Stack+projects;🌱+Mastering+Next.js+%2B+TypeScript+%2B+LLMs;💡+Solving+DSA+problems+daily;🚀+Targeting+FAANG+%2F+top+startups" />
 </p>
+
+---
+
+### 💡 &nbsp;Dev Quote of the Day
+
+<!-- QUOTE_START -->
+> "The best way to predict the future is to invent it."
+> — Alan Kay
+<!-- QUOTE_END -->
 
 ---
 
