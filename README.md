@@ -67,14 +67,6 @@ abhiraj@github:~$ whoami
 
 ---
 
-### 🏆 &nbsp;Trophies
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=abhiraj01-bit&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7"/>
-</p>
-
----
-
 ### 📈 &nbsp;Activity Graph
 
 <p align="center">
@@ -92,6 +84,8 @@ abhiraj@github:~$ whoami
     <img alt="contribution snake" src="https://raw.githubusercontent.com/abhiraj01-bit/abhiraj01-bit/output/github-contribution-grid-snake-dark.svg"/>
   </picture>
 </p>
+
+> ⚠️ If snake is not visible, go to **Actions → Snake Animation → Run workflow** to generate it once.
 
 ---
 
