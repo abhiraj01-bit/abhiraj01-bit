@@ -44,6 +44,10 @@ abhiraj@github:~$ whoami
 </p>
 
 <p align="center">
+  <img src="https://raw.githubusercontent.com/abhiraj01-bit/abhiraj01-bit/main/skills.svg" />
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/C%2B%2B-Expert-ff5540?style=flat-square&logo=cplusplus&logoColor=white"/>
   <img src="https://img.shields.io/badge/Python-Advanced-3776AB?style=flat-square&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/React-Advanced-61DAFB?style=flat-square&logo=react&logoColor=black"/>
@@ -102,7 +106,7 @@ abhiraj@github:~$ whoami
 ### 🎯 &nbsp;Current Focus
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=15&duration=2800&pause=1000&color=FF5540&background=00000000&center=true&vCenter=true&width=520&height=40&lines=🔭+Building+AI+%2B+Full-Stack+projects;🌱+Mastering+Next.js+%2B+TypeScript+%2B+LLMs;💡+Solving+DSA+problems+daily;🚀+Targeting+FAANG+%2F+top+startups" />
+  <img src="https://raw.githubusercontent.com/abhiraj01-bit/abhiraj01-bit/main/terminal.svg" />
 </p>
 
 ---

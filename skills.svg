@@ -1,0 +1,89 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 280" width="700" height="280">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#161b22"/>
+    </linearGradient>
+    <!-- bar gradients -->
+    <linearGradient id="barCpp"  x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ff5540"/><stop offset="100%" stop-color="#ff8c00"/>
+    </linearGradient>
+    <linearGradient id="barPy"   x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#3776AB"/><stop offset="100%" stop-color="#58a6ff"/>
+    </linearGradient>
+    <linearGradient id="barJs"   x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#e3b341"/><stop offset="100%" stop-color="#ffd700"/>
+    </linearGradient>
+    <linearGradient id="barReact" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#61DAFB"/><stop offset="100%" stop-color="#00bcd4"/>
+    </linearGradient>
+    <linearGradient id="barNode" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#339933"/><stop offset="100%" stop-color="#3fb950"/>
+    </linearGradient>
+    <linearGradient id="barAI"   x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#bc8cff"/><stop offset="100%" stop-color="#8A2BE2"/>
+    </linearGradient>
+    <clipPath id="clip2"><rect width="700" height="280" rx="10"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#clip2)">
+    <rect width="700" height="280" fill="url(#bg2)" rx="10"/>
+    <rect width="699" height="279" rx="10" fill="none" stroke="#30363d" stroke-width="1"/>
+
+    <!-- Title -->
+    <text x="350" y="30" text-anchor="middle"
+      font-family="'Fira Code',monospace" font-size="14" font-weight="600" fill="#c9d1d9">
+      ⚡ Skill Proficiency
+    </text>
+    <line x1="20" y1="40" x2="680" y2="40" stroke="#21262d" stroke-width="1"/>
+
+    <!-- C++ -->
+    <text x="20"  y="68" font-family="'Fira Code',monospace" font-size="12" fill="#c9d1d9">C++</text>
+    <text x="680" y="68" text-anchor="end" font-family="'Fira Code',monospace" font-size="12" fill="#ff5540">92%</text>
+    <rect x="20" y="73" width="660" height="8" rx="4" fill="#21262d"/>
+    <rect x="20" y="73" width="0"   height="8" rx="4" fill="url(#barCpp)">
+      <animate attributeName="width" values="0;607" dur="1.2s" begin="0.2s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </rect>
+
+    <!-- Python -->
+    <text x="20"  y="108" font-family="'Fira Code',monospace" font-size="12" fill="#c9d1d9">Python</text>
+    <text x="680" y="108" text-anchor="end" font-family="'Fira Code',monospace" font-size="12" fill="#58a6ff">82%</text>
+    <rect x="20" y="113" width="660" height="8" rx="4" fill="#21262d"/>
+    <rect x="20" y="113" width="0"   height="8" rx="4" fill="url(#barPy)">
+      <animate attributeName="width" values="0;541" dur="1.2s" begin="0.5s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </rect>
+
+    <!-- JavaScript -->
+    <text x="20"  y="148" font-family="'Fira Code',monospace" font-size="12" fill="#c9d1d9">JavaScript</text>
+    <text x="680" y="148" text-anchor="end" font-family="'Fira Code',monospace" font-size="12" fill="#e3b341">80%</text>
+    <rect x="20" y="153" width="660" height="8" rx="4" fill="#21262d"/>
+    <rect x="20" y="153" width="0"   height="8" rx="4" fill="url(#barJs)">
+      <animate attributeName="width" values="0;528" dur="1.2s" begin="0.8s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </rect>
+
+    <!-- React -->
+    <text x="20"  y="188" font-family="'Fira Code',monospace" font-size="12" fill="#c9d1d9">React / Next.js</text>
+    <text x="680" y="188" text-anchor="end" font-family="'Fira Code',monospace" font-size="12" fill="#61DAFB">78%</text>
+    <rect x="20" y="193" width="660" height="8" rx="4" fill="#21262d"/>
+    <rect x="20" y="193" width="0"   height="8" rx="4" fill="url(#barReact)">
+      <animate attributeName="width" values="0;515" dur="1.2s" begin="1.1s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </rect>
+
+    <!-- Node.js -->
+    <text x="20"  y="228" font-family="'Fira Code',monospace" font-size="12" fill="#c9d1d9">Node.js</text>
+    <text x="680" y="228" text-anchor="end" font-family="'Fira Code',monospace" font-size="12" fill="#3fb950">75%</text>
+    <rect x="20" y="233" width="660" height="8" rx="4" fill="#21262d"/>
+    <rect x="20" y="233" width="0"   height="8" rx="4" fill="url(#barNode)">
+      <animate attributeName="width" values="0;495" dur="1.2s" begin="1.4s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </rect>
+
+    <!-- AI/ML -->
+    <text x="20"  y="268" font-family="'Fira Code',monospace" font-size="12" fill="#c9d1d9">AI / ML</text>
+    <text x="680" y="268" text-anchor="end" font-family="'Fira Code',monospace" font-size="12" fill="#bc8cff">60%</text>
+    <rect x="20" y="253" width="660" height="8" rx="4" fill="#21262d"/>
+    <rect x="20" y="253" width="0"   height="8" rx="4" fill="url(#barAI)">
+      <animate attributeName="width" values="0;396" dur="1.2s" begin="1.7s" fill="freeze" calcMode="spline" keySplines="0.4 0 0.2 1"/>
+    </rect>
+
+  </g>
+</svg>
