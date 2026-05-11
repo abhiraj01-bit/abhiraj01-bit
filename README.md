@@ -18,22 +18,9 @@
 
 ### 💻 &nbsp;whoami
 
-```bash
-abhiraj@github:~$ whoami
-```
-```
-  Name     →  Abhiraj Kumar
-  Role     →  C++ DSA | Full-Stack Developer | AI Engineer
-  Location →  India 🇮🇳
-  Motto    →  Consistency > Motivation
-```
-```json
-{
-  "focus"    : ["DSA & CP", "AI/ML", "Full Stack", "System Design"],
-  "learning" : ["Next.js", "TypeScript", "Cloud", "LLMs"],
-  "building" : "Scalable, production-ready systems"
-}
-```
+<p align="center">
+  <img src="https://raw.githubusercontent.com/abhiraj01-bit/abhiraj01-bit/main/whoami.svg" />
+</p>
 
 ---
 
