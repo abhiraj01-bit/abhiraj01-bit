@@ -76,7 +76,7 @@
   </picture>
 </p>
 
-> ⚠️ If snake is not visible, go to **Actions → Snake Animation → Run workflow** to generate it once.
+>
 
 ---
 
